@@ -1,1 +1,49 @@
 @import "bootstrap";
+
+.navbar {
+  font-family: "rubikblack", sans-serif;
+  font-weight: 200;
+  box-shadow: 0px 1px 3px #2a2a2a;
+  background: image_url('papyrus-dark');
+}
+.navbar-inverse a.navbar-brand {
+  font-family: "rubikblack", sans-serif;
+  font-weight: 100;
+  color: white;
+}
+.navbar-light .navbar-brand {
+  color: white;
+}
+.navbar-light .navbar-nav .open > .nav-link,
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.open,
+.navbar-light .navbar-nav .nav-link.active {
+  color: white;
+}
+.hero {
+  background: image_url('splash.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 370px;
+  box-shadow: 0px 3px 8px #2a2a2a;
+}
+h1, h2, h3, h4, h5, h6, .navbar {
+  margin: 0;
+}
+.frosty {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+.frosty h1 {
+  font-family: "rubikblack", sans-serif;
+  font-weight: 50;
+}
+.frosty h2 {
+    font-family: "rubikblack", sans-serif;
+    font-weight: 100;
+}
+.btn {
+  border-radius: 0;
+}
