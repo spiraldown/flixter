@@ -19,7 +19,7 @@ end
 
 private
 
-def require_aurhotized_for_current_course
+def require_authorized_for_current_course
   if current_course.user != current_user
     render plain: "Unauthorized", status: :unauthorized 
   end
@@ -31,7 +31,7 @@ def current_course
 end
 
 def course_params
-  params.require(:course).permit(:title, :description, :cost)
+  params.require(:course).permit(:title, :description, :cost, :image)
 end
 
 end
