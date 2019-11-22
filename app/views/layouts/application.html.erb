@@ -78,21 +78,27 @@
     <div class="col-12 col-sm-3">
       <b>Contact</b>
       <br />
-      my@email.com
+      <%= mail_to "mmcodedesign@gmail.com" do %>
+      mmcodedesign@email.com
+      <% end %>
       <br/>
-      One Kendall Square
-      <br />
-      Cambridge MA, 02113
+      View my Portfolio and more
+      <br/>
+      over here ->
     </div>
     <div class="col-12 col-sm-3 social">
       <b>Social</b>
       <br />
       <br />
-      <%= link_to 'https://github.com/spiraldown' do %>
-      <span class="fa fa-github-square fa-2x social-button"></span>
+      <%= link_to 'https://github.com/spiraldown', :target => "_blank" do %>
+        <span class="fa fa-github-square fa-2x social-button"></span>
       <% end %>
-      <span class="fa fa-facebook-square fa-2x social-button"></span>
-      <span class="fa fa-twitter-square fa-2x social-button"></span>
+        <%= link_to "https://www.linkedin.com/in/matthew-munos/", :target => "_blank"  do %>
+        <span class="fa fa-linkedin-square fa-2x social-button"></span>
+      <% end %>
+        <%= link_to 'https://matthewmunos.myportfolio.com/', :target => "_blank" do %>
+        <i class="fa fa-camera fa-2x social-button"></i>
+    <% end %>
     </div>
   </div>
 </div>
