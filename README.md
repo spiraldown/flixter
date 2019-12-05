@@ -1,6 +1,6 @@
 # **Flixter**
 
-Replace with App Info
+A Full Stack App for users to create or sign up for created lessons. Users can keep track of the courses they sign up for or are teaching. Teachers can restruction lessons by drag and drop to keep their lessons organized and sequential when adding new topics. Users can also pay for courses through Stripe credit card services. 
 
 ### You can visit [Flixter Here](https://flixter-matt-munos.herokuapp.com/)
 
@@ -16,13 +16,13 @@ Section for signing up to join Flixter.
 Section for logging in if you have already signed up.
 ![Flixter Login](https://github.com/spiraldown/flixter/blob/master/flixterlogin.jpg)
 
-### Course Creation
-Section for submitting a users quote and artist to the database. 
-![Flixter Course Creation](https://github.com/spiraldown/flixter/blob/master/flixterCourseCreation.jpg)
-
 ### Courses Page
 Section to browse all the courses offered on flixter.
- ![Flixter Courses](https://github.com/spiraldown/flixter/blob/master/FlixterCourses.jpg)
+![Flixter Courses](https://github.com/spiraldown/flixter/blob/master/FlixterCourses.jpg)
+ 
+### Course Creation
+Section for creating a course and adding a video or image as needed.
+![Flixter Course Creation](https://github.com/spiraldown/flixter/blob/master/flixterCourseCreation.jpg)
 
 ### Course Detail
 Section for viewing the course in detail to see an outline of what the course offers.
