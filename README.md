@@ -18,7 +18,7 @@ Section for logging in if you have already signed up.
 
 ### Course Creation
 Section for submitting a users quote and artist to the database. 
-![Flixter Course Creation](https://github.com/spiraldown/scratch/blob/master/scratch2.jpg?raw=true)
+![Flixter Course Creation](https://github.com/spiraldown/flixter/blob/master/flixterCourseCreation.jpg)
 
 ### Courses Page
 Section to browse all the courses offered on flixter.
@@ -78,4 +78,4 @@ Section for instructors and students to see what courses they are offering or le
   * Postgresql
 
 * **JavaScript**
-  * Script for closing auto closing of notifications
+  * Rearranging courses and lessons drag and rop
